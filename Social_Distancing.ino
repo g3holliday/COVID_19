@@ -1,6 +1,6 @@
 int const trigPin = 6;
 int const echoPin = 5;
-int const buzzPin = 13;
+int const buzzPin = 12;
 void setup()
 {
 pinMode(trigPin, OUTPUT); // trig pin will have pulses output
