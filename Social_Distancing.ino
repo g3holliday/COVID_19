@@ -20,7 +20,7 @@ duration = pulseIn(echoPin, HIGH);
 // Distance is half the duration divided by 29.1 (from datasheet)
 distance = (duration/2) / 29.1;
 // if distance less than 0.5 meter and more than 0 (0 or less means over range)
-if (distance <= 225 && distance >= 0) {
+if (distance <= 150 && distance >= 0) {
 // Buzz
 digitalWrite(buzzPin, HIGH);
 } else {
